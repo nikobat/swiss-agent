@@ -1,0 +1,51 @@
+﻿Date,Platform,Campaign Name,Ad Set Name,Ad Name,Headline,Description,Impressions,Reach,Clicks,Post Reactions,Page Likes,Comments,Shares,Video Views,Conversions,Cost Per Click (CPC),"Cost Per 1,000 Impressions (CPM)",Cost per Action CPA,Cost
+18/06/2023,Facebook,Winter Sale,Sale - Men's Shoes,Ad 1,,,10000,8000,500,200,50,10,20,300,25,0.5,25,10,250
+18/06/2023,Facebook,Winter Sale,Sale - Women's Shoes,Ad 2,,,12000,9000,600,250,60,15,25,350,30,0.45,22.5,9,270
+19/06/2023,Facebook,Winter Sale,Sale - Men's Shoes,Ad 1,,,11000,8200,550,220,55,12,22,320,28,0.48,24,9.428571429,264
+19/06/2023,Facebook,Winter Sale,Sale - Women's Shoes,Ad 2,,,13000,9200,620,260,65,18,28,360,33,0.42,20.03076923,7.890909091,260.4
+20/06/2023,Facebook,Winter Sale,Sale - Men's Shoes,Ad 1,,,11500,8300,575,225,57,13,24,340,30,0.470869565,23.54347826,9.025,270.75
+20/06/2023,Facebook,Winter Sale,Sale - Women's Shoes,Ad 2,,,13500,9300,635,265,67,20,30,370,35,0.410787402,19.32222222,7.452857143,260.85
+21/06/2023,Facebook,Winter Sale,Sale - Men's Shoes,Ad 1,,,11600,8400,580,230,58,14,26,350,32,0.467586207,23.37931034,8.475,271.2
+21/06/2023,Facebook,Winter Sale,Sale - Women's Shoes,Ad 2,,,13600,9400,640,270,68,22,32,380,37,0.40875,19.23529412,7.07027027,261.6
+22/06/2023,Facebook,Winter Sale,Sale - Men's Shoes,Ad 1,,,11700,8500,585,235,59,15,28,360,34,0.014888889,0.744444444,0.256176471,8.71
+22/06/2023,Facebook,Winter Sale,Sale - Women's Shoes,Ad 2,,,13700,9500,645,275,70,24,34,390,39,0.405813953,19.10583942,6.711538462,261.75
+23/06/2023,Facebook,Winter Sale,Sale - Men's Shoes,Ad 1,,,11800,8600,590,240,60,16,30,370,36,0.461186441,23.05932203,7.558333333,272.1
+23/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,13800,9600,650,280,72,26,36,400,41,0.403538462,19.00724638,6.397560976,262.3
+24/06/2023,Facebook,Summer Sale,Sale - Men's Shoes,Ad 1,,,11900,8700,595,245,61,17,32,380,38,0.458067227,22.90336134,7.172368421,272.55
+24/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,13900,9700,655,285,74,28,38,410,43,0.40129771,18.91007194,6.112790698,262.85
+25/06/2023,Facebook,Summer Sale,Sale - Men's Shoes,Ad 1,,,12000,8800,600,250,62,18,34,390,40,0.455,22.75,6.825,273
+25/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,14000,9800,660,290,76,30,40,420,45,0.399090909,18.81428571,5.853333333,263.4
+26/06/2023,Facebook,Summer Sale,Sale - Men's Shoes,Ad 1,,,12100,8900,605,255,63,19,36,400,42,0.451983471,22.59917355,6.510714286,273.45
+26/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,14100,9900,665,295,78,32,42,430,47,0.396917293,18.71985816,5.615957447,263.95
+27/06/2023,Facebook,Summer Sale,Sale - Men's Shoes,Ad 1,,,12200,9000,610,260,64,20,38,410,44,0.449016393,22.45081967,6.225,273.9
+27/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,14200,10000,670,300,80,34,44,440,49,0.394776119,18.62676056,5.397959184,264.5
+28/06/2023,Facebook,Summer Sale,Sale - Men's Shoes,Ad 1,,,12300,9100,615,265,65,21,40,420,46,0.446097561,22.30487805,5.964130435,274.35
+28/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,14300,10100,675,305,82,36,46,450,51,0.392666667,18.53496503,5.197058824,265.05
+29/06/2023,Facebook,Summer Sale,Sale - Men's Shoes,Ad 1,,,12400,9200,620,270,66,22,42,430,48,0.443225806,22.16129032,5.725,274.8
+29/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,14400,10200,680,310,84,38,48,460,53,0.390588235,18.44444444,5.011320755,265.6
+30/06/2023,Facebook,Summer Sale,Sale - Men's Shoes,Ad 1,,,12500,9300,625,275,67,23,44,440,50,0.4404,22.02,5.505,275.25
+30/06/2023,Facebook,Summer Sale,Sale - Women's Shoes,Ad 2,,,14500,10300,685,315,86,40,50,470,55,0.388540146,18.35517241,4.839090909,266.15
+18/06/2023,Google,Winter Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",5000,,250,,,,,,25,1,,10.00,250
+18/06/2023,Google,Winter Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",6000,,300,,,,,,30,0.9,,9.00,270
+19/06/2023,Google,Winter Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",5500,,275,,,,,,27.5,0.95,,9.50,261.25
+19/06/2023,Google,Winter Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",6500,,325,,,,,,32.5,0.85,,8.50,276.25
+20/06/2023,Google,Winter Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",5750,,287.5,,,,,,28.75,0.969982609,,9.70,278.87
+20/06/2023,Google,Winter Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",6750,,337.5,,,,,,33.75,0.829985185,,8.30,280.12
+21/06/2023,Google,Winter Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",5800,,290,,,,,,29,0.96,,9.60,278.4
+21/06/2023,Google,Winter Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",6800,,340,,,,,,34,0.81,,8.10,275.4
+22/06/2023,Google,Winter Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",5850,,292.5,,,,,,29.25,0.949982906,,9.50,277.87
+22/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",6850,,342.5,,,,,,34.25,131.6788321,,6.78,232.33
+23/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",6900,,345,,,,,,34.5,0.784347826,,7.84,270.6
+24/06/2023,Google,Summer Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",5950,,297.5,,,,,,29.75,0.929848739,,9.30,276.63
+24/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",6950,,347.5,,,,,,34.75,0.755769784,,7.56,262.63
+25/06/2023,Google,Summer Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",6000,,300,,,,,,30,0.92,,9.20,276
+25/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",7000,,350,,,,,,35,0.73,,7.30,255.5
+26/06/2023,Google,Summer Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",6050,,302.5,,,,,,30.25,0.909983471,,9.10,275.27
+26/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",7050,,352.5,,,,,,35.25,0.704624113,,7.05,248.38
+27/06/2023,Google,Summer Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",6100,,305,,,,,,30.5,0.9,,9.00,274.5
+27/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",7100,,355,,,,,,35.5,0.679295775,,6.79,241.15
+28/06/2023,Google,Summer Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",6150,,307.5,,,,,,30.75,0.89001626,,8.90,273.68
+29/06/2023,Google,Summer Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",6200,,310,,,,,,31,0.88,,8.80,272.8
+29/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",7200,,360,,,,,,36,0.62875,,6.29,226.35
+30/06/2023,Google,Summer Sale,Men's Shoes,Ad 1,"""Best Summer Sale""","""Discount on all men's shoes.""",6250,,312.5,,,,,,31.25,0.870016,,8.70,271.88
+30/06/2023,Google,Summer Sale,Women's Shoes,Ad 2,"""Summer Sale for Women""","""Big sale on all women's shoes.""",7250,,362.5,,,,,,36.25,0.603586207,,6.04,218.8
