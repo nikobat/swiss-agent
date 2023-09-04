@@ -21,8 +21,6 @@ if not openai_api_key:
     st.info("Enter an OpenAI API Key to continue")
     st.stop()
 
-os.environ["OPENAI_API_KEY"] = openai_api_key
-
 #tool definition and set up
 templates = """This is a conversation between a human and a bot:
 
@@ -38,7 +36,7 @@ memory = ConversationBufferMemory(memory_key="chat_history",chat_memory=msgs)
 prompt = PromptTemplate(input_variables=["input", "chat_history"], template=templates)
 readonlymemory = ReadOnlySharedMemory(memory=memory)
 summary_chain = LLMChain(
-    llm=OpenAI(),
+    llm=OpenAI(openai_api_key=openai_api_key),
     prompt=prompt,
     verbose=True,
     memory=readonlymemory,  # use the read-only memory to prevent the tool from modifying the memory
@@ -80,7 +78,7 @@ prompt = ZeroShotAgent.create_prompt(
 
 
 
-llm_chain = LLMChain(llm=OpenAI(temperature=0), prompt=prompt)
+llm_chain = LLMChain(llm=OpenAI(openai_api_key=openai_api_key,temperature=0), prompt=prompt)
 agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools, verbose=True, handle_parsing_errors="Check your output and make sure it conforms!")
 agent_chain = AgentExecutor.from_agent_and_tools(
     agent=agent, tools=tools, verbose=True, memory=memory
