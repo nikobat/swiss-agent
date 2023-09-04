@@ -6,9 +6,9 @@ from langchain.memory import ConversationBufferMemory, ReadOnlySharedMemory, Str
 from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.utilities.duckduckgo_search import DuckDuckGoSearchAPIWrapper
 
-
-from dotenv import load_dotenv
-load_dotenv()
+# Comment out before publishing
+# from dotenv import load_dotenv
+# load_dotenv()
 
 #tool definition and set up
 template = """This is a conversation between a human and a bot:
