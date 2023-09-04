@@ -2,3 +2,4 @@ openai
 streamlit
 langchain
 duckduckgo_search
+tabulate
