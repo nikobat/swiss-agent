@@ -76,6 +76,10 @@ agent_chain = AgentExecutor.from_agent_and_tools(
 st.set_page_config(page_title="Streamlit Langchain with Tools", page_icon="🛠️")
 st.title("📖 StreamlitChatMessageHistory")
 
+user_api_key = st.sidebar.text_input(
+    label="#### Your OpenAI API key 👇",
+    placeholder="Paste your openAI API key, sk-",
+    type="password")
 
 if len(msgs.messages) == 0:
     msgs.add_ai_message("How can I help you?")
