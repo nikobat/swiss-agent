@@ -10,6 +10,16 @@ from langchain.utilities.duckduckgo_search import DuckDuckGoSearchAPIWrapper
 # from dotenv import load_dotenv
 # load_dotenv()
 
+
+# # Get an OpenAI API Key before continuing
+if "OPENAI_API_KEY" in st.secrets:
+    openai_api_key = st.secrets.OPENAI_API_KEY
+else:
+    openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
+if not openai_api_key:
+    st.info("Enter an OpenAI API Key to continue")
+    st.stop()
+
 #tool definition and set up
 template = """This is a conversation between a human and a bot:
 
@@ -76,10 +86,7 @@ agent_chain = AgentExecutor.from_agent_and_tools(
 st.set_page_config(page_title="Streamlit Langchain with Tools", page_icon="🛠️")
 st.title("📖 StreamlitChatMessageHistory")
 
-user_api_key = st.sidebar.text_input(
-    label="#### Your OpenAI API key 👇",
-    placeholder="Paste your openAI API key, sk-",
-    type="password")
+
 
 if len(msgs.messages) == 0:
     msgs.add_ai_message("How can I help you?")
