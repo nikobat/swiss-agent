@@ -6,12 +6,8 @@ from langchain.memory import ConversationBufferMemory, ReadOnlySharedMemory, Str
 from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.utilities.duckduckgo_search import DuckDuckGoSearchAPIWrapper
 
-# Comment out before publishing
-# from dotenv import load_dotenv
-# load_dotenv()
 
-
-# # Get an OpenAI API Key before continuing
+# Get an OpenAI API Key before continuing
 if "OPENAI_API_KEY" in st.secrets:
     openai_api_key = st.secrets.OPENAI_API_KEY
 else:
@@ -21,7 +17,7 @@ if not openai_api_key:
     st.stop()
 
 #tool definition and set up
-template = """This is a conversation between a human and a bot:
+templates = """This is a conversation between a human and a bot:
 
 {chat_history}
 
@@ -32,7 +28,7 @@ Write a summary of the conversation for {input}:
 msgs = StreamlitChatMessageHistory(key="langchain_messages")
 memory = ConversationBufferMemory(memory_key="chat_history",chat_memory=msgs)
 
-prompt = PromptTemplate(input_variables=["input", "chat_history"], template=template)
+prompt = PromptTemplate(input_variables=["input", "chat_history"], template=templates)
 readonlymemory = ReadOnlySharedMemory(memory=memory)
 summary_chain = LLMChain(
     llm=OpenAI(),
