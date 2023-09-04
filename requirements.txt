@@ -1,5 +1,4 @@
 openai
-os
 streamlit
 langchain
-Duckduckgo_search
+duckduckgo_search
