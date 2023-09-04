@@ -7,15 +7,21 @@ from langchain.memory import ConversationBufferMemory, ReadOnlySharedMemory, Str
 from langchain import OpenAI, LLMChain, PromptTemplate
 from langchain.utilities.duckduckgo_search import DuckDuckGoSearchAPIWrapper
 
+st.set_page_config(page_title="Streamlit Langchain with Tools", page_icon="🛠️")
+st.title("📖 StreamlitChatMessageHistory")
+
+
 
 # Get an OpenAI API Key before continuing
 if "OPENAI_API_KEY" in st.secrets:
-    os.environ["OPENAI_API_KEY"] = st.secrets.OPENAI_API_KEY
+    openai_api_key = st.secrets["OPENAI_API_KEY"]
 else:
-    os.environ["OPENAI_API_KEY"] = st.sidebar.text_input("OpenAI API Key", type="password")
-if not "OPENAI_API_KEY" :
+    openai_api_key = st.sidebar.text_input("OpenAI API Key")
+if not openai_api_key:
     st.info("Enter an OpenAI API Key to continue")
     st.stop()
+
+os.environ["OPENAI_API_KEY"] = openai_api_key
 
 #tool definition and set up
 templates = """This is a conversation between a human and a bot:
@@ -79,9 +85,6 @@ agent = ZeroShotAgent(llm_chain=llm_chain, tools=tools, verbose=True, handle_par
 agent_chain = AgentExecutor.from_agent_and_tools(
     agent=agent, tools=tools, verbose=True, memory=memory
 )
-
-st.set_page_config(page_title="Streamlit Langchain with Tools", page_icon="🛠️")
-st.title("📖 StreamlitChatMessageHistory")
 
 
 
