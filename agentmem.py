@@ -42,7 +42,7 @@ summary_chain = LLMChain(
     memory=readonlymemory,  # use the read-only memory to prevent the tool from modifying the memory
 )
 duckduck_search = DuckDuckGoSearchAPIWrapper()
-cdata = create_pandas_dataframe_agent(OpenAI(temperature=0), pd.read_csv('data/campaign_date.csv'), verbose=True)
+cdata = create_pandas_dataframe_agent(OpenAI(openai_api_key=openai_api_key,temperature=0), pd.read_csv('data/campaign_date.csv'), verbose=True)
 tools = [
     Tool(
         name="Search",
