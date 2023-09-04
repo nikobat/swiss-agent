@@ -1,5 +1,6 @@
 import streamlit as st
 import pandas as pd
+import os
 
 from langchain.agents import ZeroShotAgent, Tool, AgentExecutor, initialize_agent, create_pandas_dataframe_agent
 from langchain.memory import ConversationBufferMemory, ReadOnlySharedMemory, StreamlitChatMessageHistory
@@ -9,10 +10,10 @@ from langchain.utilities.duckduckgo_search import DuckDuckGoSearchAPIWrapper
 
 # Get an OpenAI API Key before continuing
 if "OPENAI_API_KEY" in st.secrets:
-    openai_api_key = st.secrets.OPENAI_API_KEY
+    os.environ["OPENAI_API_KEY"] = st.secrets.OPENAI_API_KEY
 else:
-    openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
-if not openai_api_key:
+    os.environ["OPENAI_API_KEY"] = st.sidebar.text_input("OpenAI API Key", type="password")
+if not "OPENAI_API_KEY" :
     st.info("Enter an OpenAI API Key to continue")
     st.stop()
 
