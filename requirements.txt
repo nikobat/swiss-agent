@@ -4,3 +4,4 @@ langchain
 duckduckgo_search
 tabulate
 sentence-transformers
+chromadb
