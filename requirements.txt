@@ -3,3 +3,4 @@ streamlit
 langchain
 duckduckgo_search
 tabulate
+sentence-transformers
